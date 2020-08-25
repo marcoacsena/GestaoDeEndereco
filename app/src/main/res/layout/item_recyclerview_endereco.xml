@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivEndEscolhido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_check_box_outline_blank_24"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tvLogradouro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avenida Campeche,"
+
+            />
+        <TextView
+            android:id="@+id/tvIdEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1670"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
